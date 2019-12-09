@@ -1,0 +1,51 @@
+ASSIGNMENT
+
+Build a Reddit app which displays only posts with images
+
+App should let user:
+    - quickly switch b/w different subreddits (refer to list at the end!)
+    - skim through list of posts in a subreddit. Sidebar(hamburger menu)
+    - see the full-sized image present in the post
+    - choose the subreddits they want
+    - use app offline
+    - Should be able to use the app offline with the data that was last loaded
+Each post should show the image, title, and other metadata (comments count, upvotes etc.)
+    - Write Unit Test to test your view and logic
+
+We recommend you to use:
+    - retrofit + okhttp, for networking
+    - Room, for local persistence
+    - Glide, for image loading
+    - Gson, for using json in java
+    - MVP or MVVM(LiveData) Design pattern
+    - Espresso/Mockito for writing Unit test
+
+Feel free to use alternative libraries, if you think they do a better job keeping the size of the app smallest as possible.
+
+We expect a production-level app, that means good UX, performance and maintainable code.
+
+
+
+
+SUBREDDIT TO SUPPORT:
+    alternativeart, pics, gifs, adviceanimals, cats, images, photoshopbattles, hmmm, all, aww
+
+
+HINTS:
+How to get json from Reddit is as follows:-
+let suppose you want to get json for subreddit aww denoted by link
+https://www.reddit.com/r/aww/
+the you can get json by https://www.reddit.com/r/aww.json
+
+DEADLINE:
+Monday: 11PM
+
+
+SUBMISSION INSTRUCTION:
+Submit the code by making a repository on Github and share the repo link as well as the APK in the submission email.
+
+
+Feel free to get back for any query.
+
+With Regards,
+Avneesh Kumar
